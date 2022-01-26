@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    line-height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(6, 153, 251);
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.city{
+    background-color: rgb(7, 161, 250);
+    border: 1px solid rgb(8, 107, 221);
+    display: flex;
+}
+
+.left-side{
+    padding: 20px;
+}
+
+.right-side{
+    padding: 20px;
+}
+
+h2{
+    font-size: 30px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding-bottom: 10px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+span{
+    font-size: 20px;
+    color: #fff;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.humidity{
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.pressure{
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.wind{
+    color: #fff;
+    font-size: 15px;
+}
+
+.city-img{
+    height: auto;
+    width: auto;
+}
+
+.temp{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.feels-like{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.description{
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
